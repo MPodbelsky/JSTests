@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+   month=parseInt(prompt('ВВЕДИТЕ МЕСЯЦ'));
+   year=parseInt(prompt('введите год'));
+   day=parseInt(prompt('Введите день'));
+   month == 9 ? (((year%4==0 && day==12)||(year%4==!0 && day==13))
+   ?alert('Поздравляю'):alert('Ошибка')):alert('Неверный месяц')
+</script>
+</body>
+</html>

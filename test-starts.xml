@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="StartTest" verbose="1" >
+    <test name="JSTestDenProg" >
+        <parameter name="testName" value="file:///C:/Users/Matthews/IdeaProjects/testhometaskjs/%D0%B4%D0%B5%D0%BD%D1%8C%20%D0%BF%D1%80%D0%BE%D0%B3.html"/>
+        <classes>
+            <class name="test.JSTestDenProg" />
+        </classes>
+    </test>
+    <test name="JSTestSobes" >
+        <parameter name="testName" value="file:///C:/Users/Matthews/IdeaProjects/testhometaskjs/%D1%81%D0%BE%D0%B1%D0%B5%D1%81.html"/>
+        <classes>
+            <class name="test.JSTaskTestSobes" />
+        </classes>
+    </test>
+</suite>

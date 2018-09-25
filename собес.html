@@ -1,0 +1,21 @@
+<html>
+ <head>
+  <title>Задание 2</title>
+  </head>
+ <body>
+  <script>
+     uslovieVozrast=parseInt(prompt('Сколько вам лет?','Укажите возраст:'));
+     uslovieEng=prompt('Вы владеете английским языком?','да/нет');
+     ((uslovieVozrast>=18)&&(uslovieEng.toLowerCase()=='да'))?
+	  ((urovenEng=prompt('Какой уровень вашего английского?(высокий,средний,низкий)','Укажите уровень:'))
+       ((urovenEng.toLowerCase()=='средний'||urovenEng.toLowerCase()=='высокий')?
+	     (uslovieOput=prompt('Есть ли у вас опыт работы в этой сфере?','да/нет'))
+	     ((uslovieOput.toLowerCase()=='да')?
+	     alert('Вы нам подходите,ваша зарплата будет составлять 400$'):alert('Вы нам подходите,но ваша зарплата будет составлять 300$'))
+	   :((uslovieOput=prompt('Есть ли у вас опыт работы в этой сфере?','да/нет'))
+	     ((uslovieOput.toLowerCase()=='да')?
+	     alert('Вы нам подходите,ваша зарплата будет составлять 250$'):alert('Извините,но мы вас не можем взять')))))
+	  :alert('Извините но вы не подходите')
+  </script>
+ </body>
+</html>
